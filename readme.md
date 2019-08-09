@@ -1,3 +1,10 @@
+# My fork of Speeddragon's work
+
+Intended for a specific car, my Focus RS. As such there's some customisation around that - The main BMP, and line 144 (currently) has reference to a build number. That can be safely removed or modified with no ill effects.
+
+This only works on a Mega as far as I can make it - It's too large for an Uno as it stands.
+
+
 # Arduino - Car Sensor Dashboard
 
 This repository contains C/C++ code to read and display (via Bluetooth) car sensor values. The code was create to get information from:

@@ -4,6 +4,9 @@ Intended for a specific car, my Focus RS. As such there's some customisation aro
 
 This only works on a Mega as far as I can make it - It's too large for an Uno as it stands.
 
+I'm not sure if it's normal, but for my implementation the VdoPressureSender.cpp, VdoPressureSender.h and VdoTemperatureSender equivalents sit in the same root directory as the .ino file.
+
+FGTTest.h sits in the Adafruit_GFX_Library/Fonts folder, although could reasonably sit in the same root - I just wanted the font more available than just this project. Can also be substituted for literally any other font as far as I'm aware.
 
 # Arduino - Car Sensor Dashboard
 

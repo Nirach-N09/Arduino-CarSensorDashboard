@@ -8,6 +8,8 @@ I'm not sure if it's normal, but for my implementation the VdoPressureSender.cpp
 
 FGTTest.h sits in the Adafruit_GFX_Library/Fonts folder, although could reasonably sit in the same root - I just wanted the font more available than just this project. Can also be substituted for literally any other font as far as I'm aware.
 
+The screen is one of the cheap Banggood.com 3.5" items, ILI9341, ILI9488 appears when running some attempts to identify it via the Arduino.
+
 # Arduino - Car Sensor Dashboard
 
 This repository contains C/C++ code to read and display (via Bluetooth) car sensor values. The code was create to get information from:

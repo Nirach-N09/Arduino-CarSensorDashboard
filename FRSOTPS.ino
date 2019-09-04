@@ -15,7 +15,7 @@
 #define LCD_CD A2 // Command/Data goes to Analog 2
 #define LCD_WR A1 // LCD Write goes to Analog 1
 #define LCD_RD A0 // LCD Read goes to Analog 0
-#define SD_CS 10 // Adafruit SD shields and modules: pin 10
+#define SD_CS 53 // Adafruit SD shields and modules: pin 10
 #define LCD_RESET A4 // Can alternately just connect to Arduino's reset pin
 #define WHITE 0xFFFF
 #define BUFFPIXEL 80
@@ -116,9 +116,9 @@ void setup(void) {
 
   bmpDraw("01.bmp", 0, 0);
   // Initialize car sensors
-  oilPressureSensor = new VdoPressureSender(A3, vdoPressure);
-  waterTemperatureSensor = new VdoTemperatureSender(A1, agressiveTemp);
-  oilTemperatureSensor = new VdoTemperatureSender(A2, vdoTemp);
+  oilPressureSensor = new VdoPressureSender(A15, vdoPressure); //green
+  waterTemperatureSensor = new VdoTemperatureSender(A13, agressiveTemp); //blue
+  oilTemperatureSensor = new VdoTemperatureSender(A14, vdoTemp); //yellow
 
 }
 
